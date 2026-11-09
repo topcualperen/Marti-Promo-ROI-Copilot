@@ -1,0 +1,25 @@
+# Gizli bilgiler: asla commit'lenmez
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Üretilen veri (python data/generate.py ile yeniden üretilir)
+*.db
+*.sqlite
+*.sqlite3
+
+# Python / araç çıktıları
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editör ve yerel araç ayarları
+.claude/
+.vscode/
+.idea/
+.DS_Store
